@@ -6,6 +6,27 @@
     list-style: none;
 }
 
+.ability, .stat {
+    margin-left: 10px;
+}
+
+.abilities, .stats, .text {
+    padding: 0;
+    list-style: none;
+    padding-left: 5px;
+}
+
+.details {
+    display: none;
+    background-color: white;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+.active {
+    display: block;
+}
+
 .normal {
     background-color: #a6a877;
 }
